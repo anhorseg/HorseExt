@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ViewExtActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_goneView"
+        android:text="隐藏view"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_set_listener"
+        android:text="使用扩展函数设置监听"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
